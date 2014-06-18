@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Featured Artist</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+    
+     <title>Audito Player</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+	<header>
+	</header>
+    <div id="header">
+             <ul>
+            <li><a href="E:\Web Development\Final Project\Home_page.html">Home</a></li>
+			<li><a href="E:\Web Development\Final Project\mission.html">Our Mission</a></li>
+			<li><a href="E:\Web Development\Final Project\New_Artist.html">Featured Artist</a></li>
+			<li><a href="E:\Web Development\Final Project\New_Artist_3.html">New Artist</a></li>
+			<li><a href="E:\Web Development\Final Project\New_Artist_2.html">Most Talked About</a></li>
+		</ul>
+        </div>
+	<div id="main">
+		<hr>
+		<article>
+			<h3>06/2/14</h3>
+			<h2>Twenty One Pilots</h2>
+			<img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/960/img/photos/2013/10/28/75/b0/wxxj-upickem-header-twenty-one-pilots-102813.jpg" height="230">
+			<p>Twenty One Pilots is from Chicago. The band was formed in 2011. This band consits of Lead vocals Tyler Joseph and drummer Joshua Dun. Their single "Car Radio" is being requested on Live 105's sound check every sunday. Check 'em out </p>
+            <div class="audio-player">
+    <audio id="audio-player" src="E:\Web Development\Final Project\Demo\music\Car Radio.mp3" type="audio/mp3" controls="controls"></audio>
+            </div>
+                
+<p class="more"><a href="http://www.twentyonepilots.com/about">More about this artist</a></p>
+		</article>
+		<hr>
+	</div>
+	 <aside id="sidebar">
+		<div class="module">
+			<h4>About Us</h4>
+			<p>What is Underground Exposed about? Check the link below to find out.</p>
+			<p class="more"><a href="E:\Web Development\Final Project\mission.html">Join our mission</a></p>
+		</div>
+		<hr>
+		<div class="module ad">
+			<img src="http://technologybrunch.com/wp-content/uploads/2012/07/ad-block-plus.png" alt="ad stuff" height="160">
+		</div>
+		<hr>
+		<div class="module">
+			<h4>Popular Posts</h4>
+			<ul>
+				 <li class="bottom"><a href="http://live105.cbslocal.com/show/bfd/">BFD 2014</a></li>
+				<li class="bottom"><a href="http://www.ultimate-guitar.com/">Guitar Tabs</a></li>
+				<li class="bottom"><a href="https://www.youtube.com/">Local Band Covers</a></li>
+			</ul>
+		</div>
+	</aside>
+	<footer>
+		<nav>
+		<a href="#">Home</a>
+			|
+			<a href="#">Contact US</a>
+			|
+			<a href="https://www.facebook.com/">Facebook</a>
+			|
+			<a href="http://instagram.com/">Instagram</a
+ <small>© Copyright 2014, Underground Exposed!</small>
+	</footer>
+       <script>
+    $(document).ready(function() {
+        $('#audio-player').mediaelementplayer({
+            alwaysShowControls: true,
+            features: ['playpause','volume','progress'],
+            audioVolume: 'horizontal',
+            audioWidth: 1100,
+            audioHeight: 120
+        });
+    });
+</script>
+</body>
+</html>

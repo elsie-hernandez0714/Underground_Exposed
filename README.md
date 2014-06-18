@@ -1,9 +1,6 @@
 Underground_Exposed
 ===================
-$ mkdir ~/Hello-World
 
-$ cd ~/Hello-World
+Undergroun Exposed is an education mock blog dedicated to underground and local artists. 
 
-$ git init 
-
-$ touch README
+Music and images belong to its rightful owners and are only used for educational purposes. 
